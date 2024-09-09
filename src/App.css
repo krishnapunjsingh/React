@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  height: 100%;
+  width: 100%;
+  color: rgb(6, 86, 86);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.inner-box{
+  height: 410px;
+  width: 350px;
+  background-color: rgb(74, 236, 122);
+  border-radius: 16px;
 }
+.h1{
+  margin-top: 2rem;
+}
+.email1{
+ margin: 10px 33px;
+}
+.email{
+  padding: 13px 23px;
+  margin: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(207, 201, 194);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.forget{
+  margin-top: 0%;
+  margin-left: 9.8em;
+  cursor: pointer;
+}
+.forget:hover{
+  opacity: 0.5;
+}
+.submit{
+  padding: 11px 20px;
+  margin-left: 8rem;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(128, 141, 125);
+  color: rgb(27, 37, 13);
+
+}
+.submit:hover{
+  opacity: 0.4;
+}
+.signin{
+  padding: 11px 20px;
+  margin-left: 8rem;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(128, 141, 125);
+  color: rgb(27, 37, 13);
+  margin-top: 20px;
+
 }
